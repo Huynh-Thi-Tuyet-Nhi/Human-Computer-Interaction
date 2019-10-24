@@ -36,7 +36,7 @@
   /* Microsoft Edge */
   color: #777777;
   font-weight: 300;
-}
+}fa-bars
 
 body {
   color: #777777;
@@ -1891,7 +1891,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 nav {
-  margin-right: 70px;
+ margin-center: 100px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -2406,3 +2406,26 @@ body {
 .about-generic-area {
   background-color: #fff;
 }
+/* đổi màu trên nút điều hướng
+*/
+
+.pill-nav a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 25px;
+  border-radius: 5px;
+}
+
+.pill-nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.pill-nav a.active {
+  background-color: #1e90ff;
+  color: white;
+}
+
