@@ -1,73 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  
-  <style>
-* {
-  box-sizing: border-box;
-}
-
-
-
-/* Style the header */
-header {
-  background-color: #666;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
-
-/* Create two columns/boxes that floats next to each other */
-
-article {
-  float: right;
-  padding: 10px;
-  width: 20%;
-  background-color: #f1f1f1;
-  height: 600px; /* only for demonstration, should be removed */
-}
-
-/* Clear floats after the columns */
-section:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
-</style>
-</head>
+<title>DEN Book</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
-
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
+ <!-- Navbar (placed at the bottom of the header image) -->
+<nav class="navbar navbar-inverse w3-light-grey">
+  <div class="container">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Human - Computer Interaction</a>
+      <a class="navbar-brand">DEN Book Store</a>
     </div>
     <ul class="nav navbar-nav">
-      <li ><a href="#">Home</a></li>
-      <li><a href="#">Example 1</a></li>
-      <li><a href="#">Example 2</a></li>
-	   <li><a href="#">Example 3</a></li>
-	    <li><a href="#">About</a></li>
+      <li ><a href="#" class="w3-bar-item w3-button">Trang chủ</a></li>
+      <li><a href="#Tác phẩm" class="w3-bar-item w3-button action">Tác phẩm</a></li>
+      <li><a href="#Liên hệ" class="w3-bar-item w3-button">Liên hệ</a></li>
     </ul>
     <form class="navbar-form navbar-right" action="/action_page.php">
       <div class="input-group">
-        <input type="text" class="form-control" placeholder="Search" name="search">
+        <input type="text" class="form-control" placeholder="Tìm kiếm" name="search">
         <div class="input-group-btn">
           <button class="btn btn-default" type="submit">
             <i class="glyphicon glyphicon-search"></i>
@@ -77,43 +28,211 @@ section:after {
     </form>
   </div>
 </nav>
-<section>
-<article>
- <h2>F-Pattern Image</h2>
-   <img style="width: 250px"; class="masthead-avatar mb-5" src="ex03\F-Shaped.jpg" alt="">
-    
-</article>
-
-<div class="container">
-  <h3><b>F-Shaped Pattern For Reading Web Content</b></h3>
-  <p><a>href="https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/"</a></br>
-  17 tháng 12, 2015 – The F-pattern is mirrored in right-to-left languages, such as Arabic,</br>
-  as shown in this gaze replay of a user reading an article about a skeet-shooting competition on an Arabic news site.</br>
-  (In most browsers,...
-  </p>
-  <h3><b>F-Shaped Pattern For Reading Web Content</b></h3>
-  <p><a>href="https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/"</a></br>
-  17 tháng 12, 2015 – The F-pattern is mirrored in right-to-left languages, such as Arabic,</br>
-  as shown in this gaze replay of a user reading an article about a skeet-shooting competition on an Arabic news site.</br>
-  (In most browsers,...
-  </p>
-  <h3><b>F-Shaped Pattern For Reading Web Content</b></h3>
-  <p><a>href="https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/"</a></br>
-  17 tháng 12, 2015 – The F-pattern is mirrored in right-to-left languages, such as Arabic,</br>
-  as shown in this gaze replay of a user reading an article about a skeet-shooting competition on an Arabic news site.</br>
-  (In most browsers,...
-  </p>
-  <h3><b>F-Shaped Pattern For Reading Web Content</b></h3>
-  <p><a>href="https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/"</a></br>
-  17 tháng 12, 2015 – The F-pattern is mirrored in right-to-left languages, such as Arabic,</br>
-  as shown in this gaze replay of a user reading an article about a skeet-shooting competition on an Arabic news site.</br>
-  (In most browsers,...
-  </p>
+<!-- Header -->
+<header class="w3-display-container w3-content w3-center" style="max-width:1500px">
+  <img class="w3-image" src="imageEx03\background02.jpg" alt="Me" width="1500" height="300">
+  <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
+    <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">DEN</h1>
+    <h5 class="w3-hide-large" style="white-space:nowrap">DEN</h5>
+    <h3 class="w3-hide-medium w3-hide-small">BOOK</h3>
+  </div>
+  
  
+ 
+  <!--content-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+ <style> 
+.block-27 ul, .block-27 ul li {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+.block-27 ul li {
+  display: inline-block;
+  margin-bottom: 4px; }
+  .block-27 ul li a, .block-27 ul li span {
+    text-align: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ccc; }
+  .block-27 ul li.active a, .block-27 ul li.active span {
+    background: #616161;
+    color: #fff;
+    border: 1px solid transparent; }
+	</style>
+</header>
+
+<!-- Navbar on small screens -->
+
+<div class="w3-center w3-light-grey w3-padding-16 w3-hide-large w3-hide-medium">
+<div class="w3-bar w3-light-grey">
+	<li ><a href="#" class="w3-bar-item w3-button">Trang chủ</a></li>
+    <li><a href="#Tác phẩm" class="w3-bar-item w3-button action">Tác phẩm</a></li>
+    <li><a href="#Liên hệ" class="w3-bar-item w3-button">Liên hệ</a></li>
+</div>
 </div>
 
+<!-- Page content -->
+<div class="w3-content w3-padding-large w3-margin-top" id="Tác phẩm">
+<div class="container-fluid">
+		  <h2>Tổng hợp sách hay dành cho mọi lứa tuổi</h2>
+		  </br>
+		   <div class="row">
+			<div class="col-sm-4">
+			<img src="imageEx03\dacnhantam.jpg" alt="dacnhantam" class="w3-image" width="1000" height="200">
+			</div>
+			<div class="col-sm-8">
+			
+				  <h3><b>Đắc Nhân Tâm</b></h3>
+				  <p>
+				  Thể loại: Khám phá cuộc sống
+				  </br>Tác giả: Dale Carnegie
+				  </p>
+				  <p>
+				  Tại sao Đắc Nhân Tâm luôn trong Top sách bán chạy nhất thế giới?</br>
 
-<section>
+					Bởi vì đó là cuốn sách mọi người đều nên đọc.</br>
+
+					Hiện nay có một sự hiểu nhầm đã xảy ra. Tuy Đắc Nhân Tâm là tựa sách hầu hết mọi người đều biết đến,...
+				</p>
+				 	<a  href="#">Đọc thêm</a>
+			</div>
+		  </div>
+		  </br>
+		  
+		     <div class="row">
+			<div class="col-sm-4">
+			<img src="imageEx03\xuatphatdiem.jpg" alt="xuatphatdiem" class="w3-image" width="1000" height="200">
+			</div>
+			<div class="col-sm-8">
+			
+				  <h3><b>Giới Hạn Của Bạn Chỉ Là Xuất Phát Điểm Của Tôi</b></h3>
+				  <p>
+				  Thể loại: Khám phá cuộc sống
+				  </br>Tác giả: Mèo Maverick
+				  </p>
+				   <p>
+					Giới hạn là gì?</br>Giới hạn liệu có phải ranh giới an toàn của mỗi người?
+					</br>
+					Có lẽ không, giới hạn là để phá bỏ
+					</br>
+					Bởi giới hạn của bạn chỉ là xuất phát điểm của người khác...
+					</p>
+				  	<a  href="#">Đọc thêm</a>
+			</div>
+		  </div>
+		  </br>
+		  
+		     <div class="row">
+			<div class="col-sm-4">
+			<img src="imageEx03\tuoitre.jpg" alt="tuoitre" class="w3-image" width="1000" height="200">
+			</div>
+			<div class="col-sm-8">
+			
+				  <h3><b>Tuổi Trẻ Đáng Giá Bao Nhiêu</b></h3>
+				  <p>
+				 Thể loại: Khám phá cuộc sống
+				  </br>Tác giả: Rosie Nguyễn
+				  </p>
+				  
+				  <p>
+				  "Bạn hối tiếc vì không nắm bắt lấy một cơ hội nào đó, chẳng có ai phải mất ngủ.</br>
+
+					Bạn trải qua những ngày tháng nhạt nhẽo với công việc bạn căm ghét, người ta chẳng hề bận lòng.</br>
+
+					Bạn có chết mòn nơi xó tường với những ước mơ dang dở, đó không phải là việc của họ...	</p>
+				  		<a  href="#">Đọc thêm</a>
+			</div>
+		  </div>
+		  </br>
+		  
+		     <div class="row">
+			<div class="col-sm-4">
+			<img src="imageEx03\doingan.jpg" alt="doingan" class="w3-image" width="1000" height="200">
+			</div>
+			<div class="col-sm-8">
+			
+				  <h3><b>Đời Ngắn Đừng Ngủ Dài (Tái Bản)</b></h3>
+				  <p>
+				 Thể loại: Khám phá cuộc sống
+				  </br>Tác giả: Robin Sharma
+				  </p>
+				  <p>
+				  “Mọi lựa chọn đều giá trị. Mọi bước đi đều quan trọng. Cuộc sống vẫn diễn ra theo cách của nó, không phải theo cách của ta. Hãy kiên nhẫn. Tin tưởng. Hãy giống như người thợ cắt đá, đều đặn từng nhịp, ngày qua ngày. Cuối cùng,...
+				  </p>
+				  	<a  href="#">Đọc thêm</a>
+			</div>
+		  </div>
+		  </br>
+		  
+		       <div class="row">
+			<div class="col-sm-4">
+			<img src="imageEx03\khongtu.jpg" alt="khongtu" class="w3-image" width="1000" height="200">
+			</div>
+			<div class="col-sm-8">
+			
+				  <h3><b>Không Tự Khinh Bỉ Không Tự Phí Hoài</b></h3>
+				  <p>
+				 Thể loại: Khám phá cuộc sống
+				  </br>Tác giả: Vãn Tình
+				  </p>
+				  
+				  <p>
+				  Tiếp nối thành công từ “Bạn đắt giá bao nhiêu?” và “Khí chất bao nhiêu – Hạnh phúc bấy nhiêu”, cuốn sách tiếp theo “Không tự khinh bỉ - Không tự phí hoài” của Vãn Tình hứa hẹn đem đến cho các bạn độc giả cái nhìn trực diện về cuộc sống trưởng thành người phụ nữ trong xã hội hiện đại.
+				  </p>		<a  href="#">Đọc thêm</a>
+			</div>
+		  </div>
+		  </br>
+		
+
+</div>
+							<div class="row">
+							<div class="col-md-12 text-center">
+								<div class="block-27">
+							   <ul>
+							<!--	   <li><a href="#"><i class="ion-ios-arrow-back"></i></a></li> -->
+								  <li class="active"><span>1</span></li>
+								  <li><a href="#">2</a></li>
+								  <li><a href="#">3</a></li>
+								  <li><a href="#">4</a></li>
+								  <li><a href="#">5</a></li>
+							<!--	  <li><a href="#"><i class="ion-ios-arrow-forward"></i></a></li> -->
+							   </ul>
+							</div>
+							</div>
+							</div>
+<!-- Page Liên hệ-->
+<div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="Liên hệ">
+    <h3 class="w3-center">Liên hệ</h3>
+    <hr>
+    <p>Nếu đọc giả có thắc mắc hoặc có kiến nghị gì, xin liên hệ theo mẫu sau. Xin cám ơn các bạn.</p>
+
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Họ tên</label>
+        <input class="w3-input w3-border" type="text" required name="Name">
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" required name="Email">
+      </div>
+      <div class="w3-section">
+        <label>Lời nhắn</label>
+        <input class="w3-input w3-border" required name="Message">
+      </div>
+      <button type="submit" class="w3-button w3-block w3-dark-grey">Gửi</button>
+    </form><br>
+    <p>Cung cấp bởi <a href="https://huynhthituyetnhi.tk" target="_blank" class="w3-hover-text-green">Nhi Huynh</a></p>
+
+  </div>
+<!-- End page content -->
+</div>
 
 </body>
 </html>
